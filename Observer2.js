@@ -62,9 +62,9 @@ var subject = new Subject();
 
 subject.addObserver(DataUpdated);
 subject.fetchData();
-console.log("-----");
+
 subject.addObserver(DataPublished);
 subject.fetchData();
-console.log("-----");
+
 subject.removeObserver(DataUpdated);
 subject.fetchData();
